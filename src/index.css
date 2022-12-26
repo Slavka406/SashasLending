@@ -1,13 +1,31 @@
 body {
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif, local('Pantograph Pro Compressed');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, local('Pantograph Pro Compressed'), ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace, local('Pantograph Pro Compressed'), ;
+}
+
+@font-face {
+  font-family: 'ModeratCondensedMedium';
+  src: local('ModeratCondensedMedium'), url("./font/Moderat-Condensed-Medium.ttf") format("truetype");
+  font-weight: bold;
+  /* font-style: normal;
+  font-display: swap; */
 }

@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'Pantograph Pro';
+    src: url('PantographPro-Bold.eot');
+    src: local('Pantograph Pro Bold'), local('PantographPro-Bold'),
+        url('PantographPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-Bold.woff2') format('woff2'),
+        url('PantographPro-Bold.woff') format('woff'),
+        url('PantographPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Compressed SmBd';
+    src: url('PantographPro-CompressedSemiBold.eot');
+    src: local('Pantograph Pro Compressed SemiBold'), local('PantographPro-CompressedSemiBold'),
+        url('PantographPro-CompressedSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-CompressedSemiBold.woff2') format('woff2'),
+        url('PantographPro-CompressedSemiBold.woff') format('woff'),
+        url('PantographPro-CompressedSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Compressed';
+    src: url('PantographPro-CompressedMedium.eot');
+    src: local('Pantograph Pro Compressed Medium'), local('PantographPro-CompressedMedium'),
+        url('PantographPro-CompressedMedium.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-CompressedMedium.woff2') format('woff2'),
+        url('PantographPro-CompressedMedium.woff') format('woff'),
+        url('PantographPro-CompressedMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Compressed';
+    src: url('PantographPro-CompressedLight.eot');
+    src: local('Pantograph Pro Compressed Light'), local('PantographPro-CompressedLight'),
+        url('PantographPro-CompressedLight.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-CompressedLight.woff2') format('woff2'),
+        url('PantographPro-CompressedLight.woff') format('woff'),
+        url('PantographPro-CompressedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Compressed';
+    src: url('PantographPro-CompressedBold.eot');
+    src: local('Pantograph Pro Compressed Bold'), local('PantographPro-CompressedBold'),
+        url('PantographPro-CompressedBold.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-CompressedBold.woff2') format('woff2'),
+        url('PantographPro-CompressedBold.woff') format('woff'),
+        url('PantographPro-CompressedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Compressed';
+    src: url('PantographPro-CompressedRegular.eot');
+    src: local('Pantograph Pro Compressed Regular'), local('PantographPro-CompressedRegular'),
+        url('PantographPro-CompressedRegular.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-CompressedRegular.woff2') format('woff2'),
+        url('PantographPro-CompressedRegular.woff') format('woff'),
+        url('PantographPro-CompressedRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Condensed';
+    src: url('PantographPro-CondensedMedium.eot');
+    src: local('Pantograph Pro Condensed Medium'), local('PantographPro-CondensedMedium'),
+        url('PantographPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-CondensedMedium.woff2') format('woff2'),
+        url('PantographPro-CondensedMedium.woff') format('woff'),
+        url('PantographPro-CondensedMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Extended';
+    src: url('PantographPro-ExtendedBold.eot');
+    src: local('Pantograph Pro Extended Bold'), local('PantographPro-ExtendedBold'),
+        url('PantographPro-ExtendedBold.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-ExtendedBold.woff2') format('woff2'),
+        url('PantographPro-ExtendedBold.woff') format('woff'),
+        url('PantographPro-ExtendedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Condensed';
+    src: url('PantographPro-CondensedBold.eot');
+    src: local('Pantograph Pro Condensed Bold'), local('PantographPro-CondensedBold'),
+        url('PantographPro-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-CondensedBold.woff2') format('woff2'),
+        url('PantographPro-CondensedBold.woff') format('woff'),
+        url('PantographPro-CondensedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Cond';
+    src: url('PantographPro-CondensedSemiBold.eot');
+    src: local('Pantograph Pro Condensed SemiBold'), local('PantographPro-CondensedSemiBold'),
+        url('PantographPro-CondensedSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-CondensedSemiBold.woff2') format('woff2'),
+        url('PantographPro-CondensedSemiBold.woff') format('woff'),
+        url('PantographPro-CondensedSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Condensed';
+    src: url('PantographPro-CondensedRegular.eot');
+    src: local('Pantograph Pro Condensed Regular'), local('PantographPro-CondensedRegular'),
+        url('PantographPro-CondensedRegular.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-CondensedRegular.woff2') format('woff2'),
+        url('PantographPro-CondensedRegular.woff') format('woff'),
+        url('PantographPro-CondensedRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Condensed';
+    src: url('PantographPro-CondensedLight.eot');
+    src: local('Pantograph Pro Condensed Light'), local('PantographPro-CondensedLight'),
+        url('PantographPro-CondensedLight.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-CondensedLight.woff2') format('woff2'),
+        url('PantographPro-CondensedLight.woff') format('woff'),
+        url('PantographPro-CondensedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Extd';
+    src: url('PantographPro-ExtendedSemiBold.eot');
+    src: local('Pantograph Pro Extended SemiBold'), local('PantographPro-ExtendedSemiBold'),
+        url('PantographPro-ExtendedSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-ExtendedSemiBold.woff2') format('woff2'),
+        url('PantographPro-ExtendedSemiBold.woff') format('woff'),
+        url('PantographPro-ExtendedSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Extended';
+    src: url('PantographPro-ExtendedRegular.eot');
+    src: local('Pantograph Pro Extended Regular'), local('PantographPro-ExtendedRegular'),
+        url('PantographPro-ExtendedRegular.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-ExtendedRegular.woff2') format('woff2'),
+        url('PantographPro-ExtendedRegular.woff') format('woff'),
+        url('PantographPro-ExtendedRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Extended';
+    src: url('PantographPro-ExtendedMedium.eot');
+    src: local('Pantograph Pro Extended Medium'), local('PantographPro-ExtendedMedium'),
+        url('PantographPro-ExtendedMedium.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-ExtendedMedium.woff2') format('woff2'),
+        url('PantographPro-ExtendedMedium.woff') format('woff'),
+        url('PantographPro-ExtendedMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro';
+    src: url('PantographPro-Regular.eot');
+    src: local('Pantograph Pro Regular'), local('PantographPro-Regular'),
+        url('PantographPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-Regular.woff2') format('woff2'),
+        url('PantographPro-Regular.woff') format('woff'),
+        url('PantographPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Extended';
+    src: url('PantographPro-ExtendedLight.eot');
+    src: local('Pantograph Pro Extended Light'), local('PantographPro-ExtendedLight'),
+        url('PantographPro-ExtendedLight.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-ExtendedLight.woff2') format('woff2'),
+        url('PantographPro-ExtendedLight.woff') format('woff'),
+        url('PantographPro-ExtendedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro';
+    src: url('PantographPro-Medium.eot');
+    src: local('Pantograph Pro Medium'), local('PantographPro-Medium'),
+        url('PantographPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-Medium.woff2') format('woff2'),
+        url('PantographPro-Medium.woff') format('woff'),
+        url('PantographPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro';
+    src: url('PantographPro-Light.eot');
+    src: local('Pantograph Pro Light'), local('PantographPro-Light'),
+        url('PantographPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-Light.woff2') format('woff2'),
+        url('PantographPro-Light.woff') format('woff'),
+        url('PantographPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Wide';
+    src: url('PantographPro-WideMedium.eot');
+    src: local('Pantograph Pro Wide Medium'), local('PantographPro-WideMedium'),
+        url('PantographPro-WideMedium.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-WideMedium.woff2') format('woff2'),
+        url('PantographPro-WideMedium.woff') format('woff'),
+        url('PantographPro-WideMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro';
+    src: url('PantographPro-SemiBold.eot');
+    src: local('Pantograph Pro SemiBold'), local('PantographPro-SemiBold'),
+        url('PantographPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-SemiBold.woff2') format('woff2'),
+        url('PantographPro-SemiBold.woff') format('woff'),
+        url('PantographPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Wide';
+    src: url('PantographPro-WideLight.eot');
+    src: local('Pantograph Pro Wide Light'), local('PantographPro-WideLight'),
+        url('PantographPro-WideLight.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-WideLight.woff2') format('woff2'),
+        url('PantographPro-WideLight.woff') format('woff'),
+        url('PantographPro-WideLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Wide';
+    src: url('PantographPro-WideSemiBold.eot');
+    src: local('Pantograph Pro Wide SemiBold'), local('PantographPro-WideSemiBold'),
+        url('PantographPro-WideSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-WideSemiBold.woff2') format('woff2'),
+        url('PantographPro-WideSemiBold.woff') format('woff'),
+        url('PantographPro-WideSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Wide';
+    src: url('PantographPro-WideRegular.eot');
+    src: local('Pantograph Pro Wide Regular'), local('PantographPro-WideRegular'),
+        url('PantographPro-WideRegular.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-WideRegular.woff2') format('woff2'),
+        url('PantographPro-WideRegular.woff') format('woff'),
+        url('PantographPro-WideRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantograph Pro Wide';
+    src: url('PantographPro-WideBold.eot');
+    src: local('Pantograph Pro Wide Bold'), local('PantographPro-WideBold'),
+        url('PantographPro-WideBold.eot?#iefix') format('embedded-opentype'),
+        url('PantographPro-WideBold.woff2') format('woff2'),
+        url('PantographPro-WideBold.woff') format('woff'),
+        url('PantographPro-WideBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
