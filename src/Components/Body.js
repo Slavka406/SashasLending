@@ -1,6 +1,6 @@
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 
-const Body = () => {
+function Body() {
   return (
     <Container expand="md" className="font-face-gm">
       <Row style={{ height: "640px", display: "flex" }}>
@@ -21,8 +21,7 @@ const Body = () => {
             </div>
             <div
               style={{
-                boxShadow:
-                  "0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19)",
+                boxShadow: "0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19)",
                 position: "absolute",
                 textAlign: "center",
                 display: "inline-flex",
@@ -61,8 +60,7 @@ const Body = () => {
                     }}
                     borderLeft="6px"
                     type="location"
-                    placeholder="Where to?"
-                  />
+                    placeholder="Where to?" />
                   <Form.Text className="font-face-gm"></Form.Text>
                 </Form.Group>
                 <Form.Group
@@ -83,8 +81,7 @@ const Body = () => {
                       borderColor: "white",
                     }}
                     type="location"
-                    placeholder="When?"
-                  />
+                    placeholder="When?" />
                 </Form.Group>
                 <Form.Group
                   className="font-face-gm"
@@ -104,8 +101,7 @@ const Body = () => {
                       borderColor: "white",
                     }}
                     type="location"
-                    placeholder="How-long?"
-                  />
+                    placeholder="How-long?" />
                 </Form.Group>
                 <Button
                   variant="primary"
@@ -129,10 +125,12 @@ const Body = () => {
             </div>
           </div>
         </Col>
-        <Col>d</Col>
+        <Col>
+
+        </Col>
       </Row>
     </Container>
   );
-};
+}
 
 export default Body;
