@@ -9,6 +9,7 @@ function Body() {
             justifyContent: "center",
             display: "flex",
             alignItems: "center",
+            margin: "0 auto",
           }}
         >
           <div>
@@ -21,7 +22,8 @@ function Body() {
             </div>
             <div
               style={{
-                boxShadow: "0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19)",
+                boxShadow:
+                  "0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19)",
                 position: "absolute",
                 textAlign: "center",
                 display: "inline-flex",
@@ -60,7 +62,8 @@ function Body() {
                     }}
                     borderLeft="6px"
                     type="location"
-                    placeholder="Where to?" />
+                    placeholder="Where to?"
+                  />
                   <Form.Text className="font-face-gm"></Form.Text>
                 </Form.Group>
                 <Form.Group
@@ -81,7 +84,8 @@ function Body() {
                       borderColor: "white",
                     }}
                     type="location"
-                    placeholder="When?" />
+                    placeholder="When?"
+                  />
                 </Form.Group>
                 <Form.Group
                   className="font-face-gm"
@@ -101,7 +105,8 @@ function Body() {
                       borderColor: "white",
                     }}
                     type="location"
-                    placeholder="How-long?" />
+                    placeholder="How-long?"
+                  />
                 </Form.Group>
                 <Button
                   variant="primary"
@@ -125,9 +130,33 @@ function Body() {
             </div>
           </div>
         </Col>
-        <Col>
-
+        <Col
+          style={{
+            margin: "0 auto",
+            position: "relative",
+            left: "175px",
+            paddingTop: "5%",
+            alignItems: "center",
+          }}
+        >
+          <video
+            src="landingAustin.mp4"
+            width="100%"
+            height="400px"
+            controls="controls"
+            autoPlay="true"
+            muted="true"
+          />
         </Col>
+        <div>
+          <h1>A membership that opens doors in 375+ cities</h1>
+          <a
+            style={{ color: "RGB(8,120,108)", textDecoration: "none" }}
+            href="https://www.hellolanding.com/membership"
+          >
+            View member perks →
+          </a>
+        </div>
       </Row>
     </Container>
   );

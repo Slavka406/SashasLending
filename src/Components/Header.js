@@ -30,6 +30,8 @@ const Header = () => {
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
+              position: "relative",
+              left: "100px",
             }}
           >
             <Dropdown className="font-face-gm" autoClose="outside">
