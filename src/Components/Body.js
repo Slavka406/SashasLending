@@ -1,6 +1,12 @@
-import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import { Button, Col, Container, Form, Modal, Row } from "react-bootstrap";
+
+import { useState } from "react";
 
 function Body() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <Container expand="md" className="font-face-gm">
       <Row style={{ height: "640px", display: "flex" }}>
@@ -139,14 +145,26 @@ function Body() {
             alignItems: "center",
           }}
         >
-          <video
-            src="landingAustin.mp4"
-            width="100%"
-            height="400px"
-            controls="controls"
-            autoPlay="true"
-            muted="true"
-          />
+          <div
+            style={{
+              width: "600px",
+              height: "600px",
+              borderRadius: "20px",
+            }}
+          >
+            <video
+              style={{
+                objectFit: "cover",
+                borderRadius: "20px",
+                width: "100%",
+                height: "100%",
+              }}
+              src="landingAustin.mp4"
+              controls={false}
+              autoPlay={true}
+              muted={true}
+            />
+          </div>
         </Col>
         <div>
           <h1>A membership that opens doors in 375+ cities</h1>
@@ -157,6 +175,9 @@ function Body() {
             View member perks →
           </a>
         </div>
+        <Button variant="primary" onClick={handleShow}>
+          Launch demo modal
+        </Button>
       </Row>
     </Container>
   );
